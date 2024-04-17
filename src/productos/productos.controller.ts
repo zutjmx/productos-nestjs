@@ -9,10 +9,7 @@ export class ProductosController {
 
   @Post()
   create(@Body() createProductoDto: CreateProductoDto) {
-    console.log(createProductoDto);
-
-    //return this.productosService.create(createProductoDto);
-    return createProductoDto;
+    return this.productosService.create(createProductoDto);
   }
 
   @Get()
