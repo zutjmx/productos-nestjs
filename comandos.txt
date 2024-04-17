@@ -1,4 +1,7 @@
-nest g resource <nombre>
-
+-- Para crear recurso
+nest g resource <nombre-recurso>
 nest g resource productos
+
+-- Paquetes para instalar
+npm i class-validator class-transformer
 
