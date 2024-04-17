@@ -1,0 +1,4 @@
+nest g resource <nombre>
+
+nest g resource productos
+
